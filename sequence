@@ -1,14 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-07-10T08:43:59.621Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3_JCVoxSKM4jv_59v38C" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-10T08:52:25.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="yiatC-eBP9Y8vPhyySyh" version="21.6.1" type="github">
   <diagram name="Page-1" id="lXId7T3Y0n58pRzoTq25">
-    <mxGraphModel dx="1050" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9vpEnDx0fWydYcs30F0A-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="40" width="80" height="40" as="geometry" />
+        <mxCell id="9vpEnDx0fWydYcs30F0A-1" value="MI" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="40" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9vpEnDx0fWydYcs30F0A-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="40" width="80" height="40" as="geometry" />
+        <mxCell id="9vpEnDx0fWydYcs30F0A-2" value="Java Client (Integrated Inside MI)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-QYlrM28eZFtjLciZF-1" value="PingFederate IdP Connection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-QYlrM28eZFtjLciZF-2" value="PingFederate Auth Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="40" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-QYlrM28eZFtjLciZF-3" value="Windchill" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="40" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
