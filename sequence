@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-10T08:52:25.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="yiatC-eBP9Y8vPhyySyh" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-10T09:08:06.610Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="j7Qrci-YtEQDG_VfVcS9" version="21.6.1" type="github">
   <diagram name="Page-1" id="lXId7T3Y0n58pRzoTq25">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,13 +11,58 @@
           <mxGeometry x="160" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Pr-QYlrM28eZFtjLciZF-1" value="PingFederate IdP Connection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="40" width="90" height="40" as="geometry" />
+          <mxGeometry x="430" y="40" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Pr-QYlrM28eZFtjLciZF-2" value="PingFederate Auth Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="40" width="90" height="40" as="geometry" />
+          <mxGeometry x="590" y="40" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pr-QYlrM28eZFtjLciZF-3" value="Windchill" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="40" width="60" height="40" as="geometry" />
+        <mxCell id="Pr-QYlrM28eZFtjLciZF-3" value="Windchill &lt;br&gt;(Resource Provider)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-QYlrM28eZFtjLciZF-4" value="MI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="480" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-QYlrM28eZFtjLciZF-5" value="Java Client (Integrated Inside MI)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-QYlrM28eZFtjLciZF-6" value="PingFederate IdP Connection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="480" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-QYlrM28eZFtjLciZF-7" value="PingFederate Auth Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="480" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-QYlrM28eZFtjLciZF-8" value="Windchill &lt;br&gt;(Resource Provider)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-QYlrM28eZFtjLciZF-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pr-QYlrM28eZFtjLciZF-4" target="9vpEnDx0fWydYcs30F0A-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pr-QYlrM28eZFtjLciZF-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pr-QYlrM28eZFtjLciZF-5" target="9vpEnDx0fWydYcs30F0A-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="490" as="sourcePoint" />
+            <mxPoint x="220" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pr-QYlrM28eZFtjLciZF-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pr-QYlrM28eZFtjLciZF-6" target="Pr-QYlrM28eZFtjLciZF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="500" as="sourcePoint" />
+            <mxPoint x="470" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pr-QYlrM28eZFtjLciZF-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pr-QYlrM28eZFtjLciZF-7" target="Pr-QYlrM28eZFtjLciZF-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="510" as="sourcePoint" />
+            <mxPoint x="630" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pr-QYlrM28eZFtjLciZF-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pr-QYlrM28eZFtjLciZF-8" target="Pr-QYlrM28eZFtjLciZF-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="785" y="460" as="sourcePoint" />
+            <mxPoint x="170" y="130" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
