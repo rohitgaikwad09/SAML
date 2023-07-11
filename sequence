@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T06:52:07.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NtwNY1ymUhcRYTNJU5l0" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T07:07:06.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FKgQwqR0d-vUosj1Dzjd" version="21.6.1" type="github">
   <diagram name="Page-1" id="lXId7T3Y0n58pRzoTq25">
-    <mxGraphModel dx="242" dy="99" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1470" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -165,8 +165,8 @@
             <mxPoint x="55" y="575" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xv6Tlq5qUCiDvtIeWnrP-56" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;Access Token&lt;/b&gt;&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="60" y="550" width="90" height="30" as="geometry" />
+        <mxCell id="xv6Tlq5qUCiDvtIeWnrP-56" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;4. Access Token&lt;/b&gt;&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="60" y="552" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xv6Tlq5qUCiDvtIeWnrP-58" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -203,6 +203,15 @@
         </mxCell>
         <mxCell id="xv6Tlq5qUCiDvtIeWnrP-81" value="&lt;b&gt;Assertion grant profile&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry y="10" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mUp62Muaqx1Mz6_M3Qyx-1" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="228" y="462" as="sourcePoint" />
+            <mxPoint x="53" y="462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mUp62Muaqx1Mz6_M3Qyx-2" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;Invalid Assertion Failure Message&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="439" width="163" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
