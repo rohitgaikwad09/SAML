@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T17:33:51.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LQCzYM8noTXSrQe77o5J" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T17:36:10.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Mh-yPCAXTe3QUt0XvOAi" version="21.6.2" type="github">
   <diagram name="Page-1" id="a8gm5YMhusRQTHINKuY-">
-    <mxGraphModel dx="1116" dy="504" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="930" dy="420" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
             <mxPoint x="468.996" y="214" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KauBCI8BmVdN5zuIJaoq-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.963;exitY=0.952;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KauBCI8BmVdN5zuIJaoq-21" target="KauBCI8BmVdN5zuIJaoq-24">
+        <mxCell id="KauBCI8BmVdN5zuIJaoq-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.45;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KauBCI8BmVdN5zuIJaoq-21" target="KauBCI8BmVdN5zuIJaoq-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="276" as="sourcePoint" />
             <mxPoint x="735.55" y="112" as="targetPoint" />
@@ -118,6 +118,9 @@
         </mxCell>
         <mxCell id="KauBCI8BmVdN5zuIJaoq-51" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Windchill Data&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="115" y="300" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KauBCI8BmVdN5zuIJaoq-53" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;SAML Assertion Grant Flow&lt;/u&gt;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="21" y="65" width="336" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
